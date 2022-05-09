@@ -30,4 +30,4 @@ Open [http://localhost](http://localhost) in browser.
 
 ## Credits
 
-This was build off of the [react-wordle](https://github.com/cwackerfuss/react-wordle) project by [cwackerfuss](https://github.com/cwackerfuss)
+Readle was built off of the [react-wordle](https://github.com/cwackerfuss/react-wordle) project by [cwackerfuss](https://github.com/cwackerfuss)
