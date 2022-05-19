@@ -18,43 +18,42 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="E"
           status="correct"
         />
-        <Cell value="E" />
+        <Cell value="M" />
+        <Cell value="M" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter E is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="S" />
+        <Cell value="C" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="Y"
           status="present"
         />
-        <Cell value="O" />
         <Cell value="T" />
-      </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
-      </p>
-
-      <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
+        <Cell value="H" />
         <Cell value="E" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        The letter Y is in the word but in the wrong spot.
+      </p>
+
+      <div className="flex justify-center mb-1 mt-4">
+        <Cell value="D" />
+        <Cell value="U" />
+        <Cell isRevealing={true} isCompleted={true} value="N" status="absent" />
+        <Cell value="E" />
+      </div>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        The letter N is not in the word in any spot.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
