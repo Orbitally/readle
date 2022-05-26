@@ -144,4 +144,5 @@ export const WORDS = [
   'thehungergames',
   'thebridgeofterabithia',
   'americanpsycho',
+  'awrinkleintime',
 ]

@@ -144,4 +144,5 @@ export const VALID_GUESSES = [
   'thehungergames',
   'thebridgeofterabithia',
   'americanpsycho',
+  'awrinkleintime',
 ]
